@@ -1,0 +1,68 @@
+* {
+    /*boxsize*/
+    box-sizing: border-box;
+    /*padding within border and content*/
+    padding: 0;
+    /*margin set to zero*/
+    margin: 0;
+  }
+  
+  .container {
+    /*Displays in Flex*/
+    display: flex;
+    /*background color*/
+    background: #fff;
+    /*aligning content*/
+    align-content: center;
+    /*justifing content*/
+    justify-content: center;
+    /*Flext dirction in column*/
+    flex-direction: column;
+    /*maximum width*/
+    min-width: 700px;
+    /*minimum height*/
+    min-height: 500px;
+    /*radius of border set to 5%*/
+    border-radius: 5%;
+    /*margin set to auto*/
+    margin: auto;
+  }
+  
+  table {
+    /*collapsing border*/
+    border-collapse: collapse;
+    /*Margin set to auto*/
+    margin: auto;
+  }
+  
+  td {
+    /*background colour set to #666*/
+    background-color: #666;
+    /*border set to 5px*/
+    border: 5px solid white;
+    /*size of  the font*/
+    font-size: 80px;
+    /*color*/
+    color: #fff;
+    /*border radius set to 10 %*/
+    border-radius: 10%;
+  }
+  
+  #player {
+    /*padding set to 1rem*/
+    padding: 1rem;
+  }
+  
+  body {
+    /*display set to flex*/
+    display: flex;
+    /*background image*/
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+      center center/cover;
+      /*height of the body*/
+    height: 100vh;
+    /*width of the body*/
+    width: 100%;
+    /*hidden overflow of body*/
+    overflow: hidden;
+  }
